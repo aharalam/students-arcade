@@ -4,7 +4,7 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
-COPY missing-main.py ./
+COPY main.py ./
 COPY plugins ./plugins
 
 CMD ["python", "main.py"]
